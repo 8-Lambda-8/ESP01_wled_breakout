@@ -1,8 +1,13 @@
 {
     "layout": {
-        "rows": "2",
-        "cols": "4",
+        "hspace": "2mm",
+        "vspace": "2mm",
+        "rows": "3",
+        "cols": "6",
         "baketext": "False"
+    },
+    "tabs": {
+        "type": "annotation"
     },
     "cuts": {
         "type": "mousebites"
@@ -11,6 +16,8 @@
         "type": "railstb"
     },
     "fiducials": {
-        "type": "3fid"
+        "type": "3fid",
+        "hoffset": "8mm",
+        "voffset": "2.5mm"
     }
 }

@@ -39,7 +39,7 @@
         "pads": {
           "drill": 0.0,
           "height": 1.0,
-          "width": 3.0
+          "width": 2.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,11 +48,62 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.4
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        [
+          "copper_edge_clearance|1025000|4700000|098b92b1-9e9b-4b9b-9cc3-8e8a945a1fea|807da0ae-9c03-44c7-a589-dae332b3b704",
+          ""
+        ],
+        [
+          "copper_edge_clearance|11310000|25520000|a187abf0-798f-4e53-b406-5f8399c72071|30e1d8da-fcec-4568-ae65-5322559a0207",
+          ""
+        ],
+        [
+          "copper_edge_clearance|12975000|5375000|c566dd22-572b-462f-b650-e1379eceb61c|48cc3a69-dd70-4907-8f91-e7e41d1b5947",
+          ""
+        ],
+        [
+          "copper_edge_clearance|13100000|17320000|ef349ee5-9760-4494-92bd-d6f5eb65f202|a6b4145d-dd63-4473-a386-656d72a915f0",
+          ""
+        ],
+        [
+          "copper_edge_clearance|13100000|8680000|c566dd22-572b-462f-b650-e1379eceb61c|d01901e0-09b6-46f1-96b0-b9297cfbeb68",
+          ""
+        ],
+        [
+          "copper_edge_clearance|3690000|25520000|22e23efa-309d-4ba2-8f56-a51d19d00b12|9162bb14-e6d0-4660-99be-6df73ee2f3c0",
+          ""
+        ],
+        [
+          "copper_edge_clearance|6230000|25500000|22604e34-d17f-4819-b46f-bca2458dd226|873a298b-dde7-46a3-9812-307831531924",
+          ""
+        ],
+        [
+          "copper_edge_clearance|8770000|25500000|22604e34-d17f-4819-b46f-bca2458dd226|f24b0288-3748-4733-96b2-737ccca21096",
+          ""
+        ],
+        [
+          "courtyards_overlap|5555000|13655000|592b4981-6a88-4351-9f33-b480202a3a31|94e86f7f-4722-4209-9d50-26f77e08efd5",
+          ""
+        ],
+        [
+          "courtyards_overlap|5555000|9655000|592b4981-6a88-4351-9f33-b480202a3a31|b17e5ab4-5006-41e8-b785-1ddc021315ff",
+          ""
+        ],
+        [
+          "courtyards_overlap|7655000|17505000|5c0f9f5b-e858-4ca8-b396-566a31654bc6|72fa28ee-5512-4bff-9797-b4aaaac06ad6",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -95,9 +146,9 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_edge_clearance": "ignore",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -180,7 +231,12 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.2,
+        0.5,
+        1.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -207,7 +263,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -475,30 +536,24 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.2,
-        "name": "3V3",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgb(194, 0, 0)",
-        "track_width": 0.2,
-        "via_diameter": 0.6,
-        "via_drill": 0.3
-      },
-      {
         "clearance": 0.4,
         "name": "5V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 1,
         "schematic_color": "rgb(132, 0, 0)",
-        "track_width": 1.0,
+        "track_width": 0.5,
         "via_diameter": 1.0,
         "via_drill": 0.6
       },
       {
+        "clearance": 0.4,
         "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
-        "schematic_color": "rgb(0, 0, 255)"
+        "schematic_color": "rgb(0, 0, 255)",
+        "track_width": 0.5,
+        "via_diameter": 1.0,
+        "via_drill": 0.6
       }
     ],
     "meta": {
