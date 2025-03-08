@@ -1,0 +1,16 @@
+{
+    "layout": {
+        "rows": "2",
+        "cols": "4",
+        "baketext": "False"
+    },
+    "cuts": {
+        "type": "mousebites"
+    },
+    "framing": {
+        "type": "railstb"
+    },
+    "fiducials": {
+        "type": "3fid"
+    }
+}
