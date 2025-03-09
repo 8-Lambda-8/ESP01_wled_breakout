@@ -2616,7 +2616,7 @@
 		(sheetfile "ESP01_WLED.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start -10.09 -6.41)
+			(start -4 -6.41)
 			(end -1.46 -6.41)
 			(stroke
 				(width 0.12)
@@ -2626,7 +2626,7 @@
 			(uuid "30d1e359-ed52-4bfc-89da-6300d9323e87")
 		)
 		(fp_line
-			(start -10.09 -3.81)
+			(start -4 -3.81)
 			(end -1.46 -3.81)
 			(stroke
 				(width 0.12)
@@ -2636,7 +2636,7 @@
 			(uuid "3f441b64-64b3-48af-ba56-549b23ea5093")
 		)
 		(fp_line
-			(start -10.09 -1.27)
+			(start -4 -1.27)
 			(end -1.46 -1.27)
 			(stroke
 				(width 0.12)
@@ -2646,7 +2646,7 @@
 			(uuid "33d9e063-72ac-4275-ae0e-849ebe3191e7")
 		)
 		(fp_line
-			(start -10.09 -1.1519)
+			(start -4 -1.1519)
 			(end -1.46 -1.1519)
 			(stroke
 				(width 0.12)
@@ -2656,7 +2656,7 @@
 			(uuid "d6f93da8-ba57-43b4-828e-b28cd0616884")
 		)
 		(fp_line
-			(start -10.09 -1.033805)
+			(start -4 -1.033805)
 			(end -1.46 -1.033805)
 			(stroke
 				(width 0.12)
@@ -2666,7 +2666,7 @@
 			(uuid "498aae8c-ec1e-4a33-b2a2-06cad05ace90")
 		)
 		(fp_line
-			(start -10.09 -0.91571)
+			(start -4 -0.91571)
 			(end -1.46 -0.91571)
 			(stroke
 				(width 0.12)
@@ -2676,7 +2676,7 @@
 			(uuid "af9c95b3-1c62-4fa1-b4a6-95175530ed18")
 		)
 		(fp_line
-			(start -10.09 -0.797615)
+			(start -4 -0.797615)
 			(end -1.46 -0.797615)
 			(stroke
 				(width 0.12)
@@ -2686,7 +2686,7 @@
 			(uuid "fa730666-0313-4235-9559-2559cb8bb34d")
 		)
 		(fp_line
-			(start -10.09 -0.67952)
+			(start -4 -0.67952)
 			(end -1.46 -0.67952)
 			(stroke
 				(width 0.12)
@@ -2696,7 +2696,7 @@
 			(uuid "ed5f0338-7243-4ae1-8124-bdec2a1e876a")
 		)
 		(fp_line
-			(start -10.09 -0.561425)
+			(start -4 -0.561425)
 			(end -1.46 -0.561425)
 			(stroke
 				(width 0.12)
@@ -2706,7 +2706,7 @@
 			(uuid "14d40e45-51d1-454e-89fb-899fb7da55a1")
 		)
 		(fp_line
-			(start -10.09 -0.44333)
+			(start -4 -0.44333)
 			(end -1.46 -0.44333)
 			(stroke
 				(width 0.12)
@@ -2716,7 +2716,7 @@
 			(uuid "976c9445-81ab-4cd1-8b41-299b74859685")
 		)
 		(fp_line
-			(start -10.09 -0.325235)
+			(start -4 -0.325235)
 			(end -1.46 -0.325235)
 			(stroke
 				(width 0.12)
@@ -2726,7 +2726,7 @@
 			(uuid "b5084972-3462-4d92-a3c9-c27edd609b93")
 		)
 		(fp_line
-			(start -10.09 -0.20714)
+			(start -4 -0.20714)
 			(end -1.46 -0.20714)
 			(stroke
 				(width 0.12)
@@ -2736,7 +2736,7 @@
 			(uuid "720b9712-a040-4ccc-aa83-8a78678ca057")
 		)
 		(fp_line
-			(start -10.09 -0.089045)
+			(start -4 -0.089045)
 			(end -1.46 -0.089045)
 			(stroke
 				(width 0.12)
@@ -2746,7 +2746,7 @@
 			(uuid "3d30ddf2-9853-4c6f-b46c-a9fa2dc387fc")
 		)
 		(fp_line
-			(start -10.09 0.02905)
+			(start -4 0.02905)
 			(end -1.46 0.02905)
 			(stroke
 				(width 0.12)
@@ -2756,7 +2756,7 @@
 			(uuid "07b142ac-2d02-46f8-a417-da03b4885be3")
 		)
 		(fp_line
-			(start -10.09 0.147145)
+			(start -4 0.147145)
 			(end -1.46 0.147145)
 			(stroke
 				(width 0.12)
@@ -2766,7 +2766,7 @@
 			(uuid "c2982e92-f68a-4888-9f6d-1fcf2eb41c0f")
 		)
 		(fp_line
-			(start -10.09 0.26524)
+			(start -4 0.26524)
 			(end -1.46 0.26524)
 			(stroke
 				(width 0.12)
@@ -2776,7 +2776,7 @@
 			(uuid "6175eaea-74b1-4a43-a9ce-bd9f1e11d582")
 		)
 		(fp_line
-			(start -10.09 0.383335)
+			(start -4 0.383335)
 			(end -1.46 0.383335)
 			(stroke
 				(width 0.12)
@@ -2786,7 +2786,7 @@
 			(uuid "aa9a9e4e-ed77-4766-bcd3-2a63712a3152")
 		)
 		(fp_line
-			(start -10.09 0.50143)
+			(start -4 0.50143)
 			(end -1.46 0.50143)
 			(stroke
 				(width 0.12)
@@ -2796,7 +2796,7 @@
 			(uuid "fe1af596-1ea2-49c5-a8b5-7d692eb8c754")
 		)
 		(fp_line
-			(start -10.09 0.619525)
+			(start -4 0.619525)
 			(end -1.46 0.619525)
 			(stroke
 				(width 0.12)
@@ -2806,7 +2806,7 @@
 			(uuid "b9251c0c-8ca0-4a3d-a2fc-87ff08c208b0")
 		)
 		(fp_line
-			(start -10.09 0.73762)
+			(start -4 0.73762)
 			(end -1.46 0.73762)
 			(stroke
 				(width 0.12)
@@ -2816,7 +2816,7 @@
 			(uuid "06b6a429-f8b2-4170-8e25-84c2c59e9a9f")
 		)
 		(fp_line
-			(start -10.09 0.855715)
+			(start -4 0.855715)
 			(end -1.46 0.855715)
 			(stroke
 				(width 0.12)
@@ -2826,7 +2826,7 @@
 			(uuid "9dbf5e7e-ba00-4dd8-8c30-8052774d934c")
 		)
 		(fp_line
-			(start -10.09 0.97381)
+			(start -4 0.97381)
 			(end -1.46 0.97381)
 			(stroke
 				(width 0.12)
@@ -2836,7 +2836,7 @@
 			(uuid "316b9205-b312-4a41-b5d6-c7b434d976ff")
 		)
 		(fp_line
-			(start -10.09 1.091905)
+			(start -4 1.091905)
 			(end -1.46 1.091905)
 			(stroke
 				(width 0.12)
@@ -2846,7 +2846,7 @@
 			(uuid "9f050deb-9e5b-4f71-9ae5-871e373f3f15")
 		)
 		(fp_line
-			(start -10.09 1.21)
+			(start -4 1.21)
 			(end -1.46 1.21)
 			(stroke
 				(width 0.12)
@@ -2856,8 +2856,8 @@
 			(uuid "b46d2756-3101-4be8-a90b-1c70b4debded")
 		)
 		(fp_line
-			(start -10.09 1.33)
-			(end -10.09 -6.41)
+			(start -4 1.33)
+			(end -4 -6.41)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -2866,7 +2866,7 @@
 			(uuid "7dfacdbd-4165-45a7-8c1f-75cf4433c72b")
 		)
 		(fp_line
-			(start -10.09 1.33)
+			(start -4 1.33)
 			(end -1.46 1.33)
 			(stroke
 				(width 0.12)
@@ -2966,7 +2966,7 @@
 			(uuid "3b997a7d-4ac7-4cac-9652-29543585da24")
 		)
 		(fp_line
-			(start -10.55 -6.85)
+			(start -5 -6.85)
 			(end 1.75 -6.85)
 			(stroke
 				(width 0.05)
@@ -2976,8 +2976,8 @@
 			(uuid "f61e8c09-bf34-4634-a53e-70d0640eb1fd")
 		)
 		(fp_line
-			(start -10.55 1.8)
-			(end -10.55 -6.85)
+			(start -5 1.8)
+			(end -5 -6.85)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -2997,7 +2997,7 @@
 		)
 		(fp_line
 			(start 1.75 1.8)
-			(end -10.55 1.8)
+			(end -5 1.8)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -3006,8 +3006,8 @@
 			(uuid "8609d3dc-ee69-40ba-9f40-b3a24ba232ac")
 		)
 		(fp_line
-			(start -10.03 -6.35)
-			(end -10.03 1.27)
+			(start -4 -6.35)
+			(end -4 1.27)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -3016,7 +3016,7 @@
 			(uuid "575a4662-9a08-4668-ab44-01bb6652c034")
 		)
 		(fp_line
-			(start -10.03 1.27)
+			(start -4 1.27)
 			(end -2.49 1.27)
 			(stroke
 				(width 0.1)
@@ -3037,7 +3037,7 @@
 		)
 		(fp_line
 			(start -1.52 -6.35)
-			(end -10.03 -6.35)
+			(end -4 -6.35)
 			(stroke
 				(width 0.1)
 				(type solid)
